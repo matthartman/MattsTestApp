@@ -1,0 +1,51 @@
+Ttest-app
+v7
+r1
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Camera.png
+c000000004B87209A000000000000325B
+t1267146906
+s12891
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app
+t2
+s0
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app/Contents/Info.plist
+t2
+s0
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app/Contents/Resources/Camera.png
+t2
+s0
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app/Contents/Resources/email.html
+t2
+s0
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/email.html
+c000000004AFB5BB60000000000000164
+t1257986998
+s356
+
+Ntest_app-Info.plist
+c000000004B9717A40000000000000376
+t1268193188
+s886
+
+CCpResource build/Debug/test-app.app/Contents/Resources/Camera.png Camera.png
+r0
+
+CCpResource build/Debug/test-app.app/Contents/Resources/email.html email.html
+r0
+
+CProcessInfoPlistFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app/Contents/Info.plist test_app-Info.plist
+r0
+
+CTouch /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug/test-app.app
+r0
+

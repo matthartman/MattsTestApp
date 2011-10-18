@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* test_appAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 437}}";
+			sepNavSelRange = "{425, 0}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	1D3623250D0F684500981E51 /* test_appAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 637}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* test-app */ = {
+		activeExec = 0;
+		executables = (
+			7E49AF2F144D01180049998E /* test-app */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* test_appViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 437}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 400}";
+			sepNavWindowFrame = "{{15, 4}, {777, 774}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* test_appViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 1430}}";
+			sepNavSelRange = "{2877, 0}";
+			sepNavVisRange = "{0, 1092}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7E49AF2F144D01180049998E /* test-app */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* test-app */;
+		codeSenseManager = 7E49AF51144D014A0049998E /* Code sense */;
+		executables = (
+			7E49AF2F144D01180049998E /* test-app */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 340590872;
+			PBXWorkspaceStateSaveDate = 340590872;
+		};
+		perUserProjectItems = {
+			7E49AF54144D032A0049998E /* PBXTextBookmark */ = 7E49AF54144D032A0049998E /* PBXTextBookmark */;
+			7E49AF55144D032A0049998E /* PBXTextBookmark */ = 7E49AF55144D032A0049998E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7E49AF50144D014A0049998E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	52D7088E1146923C00D475B2 /* email.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {926, 437}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 356}";
+		};
+	};
+	7E49AF2F144D01180049998E /* test-app */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "test-app";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	7E49AF50144D014A0049998E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7E49AF51144D014A0049998E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7E49AF54144D032A0049998E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* test_appViewController.m */;
+		rLen = 15;
+		rLoc = 2862;
+		rType = 0;
+	};
+	7E49AF55144D032A0049998E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* test_appViewController.m */;
+		name = "test_appViewController.m: 93";
+		rLen = 15;
+		rLoc = 2862;
+		rType = 0;
+		vrLen = 575;
+		vrLoc = 2658;
+	};
+}

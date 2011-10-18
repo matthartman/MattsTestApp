@@ -1,0 +1,558 @@
+Ttest-app
+v7
+r0
+t340590920.487600
+cCheck dependencies
+cCpResource build/Debug-iphoneos/test-app.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Info.plist test_app-Info.plist
+cCopyPNGFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Camera.png Camera.png
+cCpResource build/Debug-iphoneos/test-app.app/email.html email.html
+cProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch.gch test_app_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch.gch test_app_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fbuetqgoujrzuyaitcfcrwxhsgbn/test_app_Prefix.pch.pth test_app_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch.pth test_app_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/main.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appAppDelegate.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appViewController.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/main.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app normal armv6
+cCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appAppDelegate.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appViewController.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app normal armv7
+cAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+cCreateUniversalBinary /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app normal "armv6 armv7"
+cAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+cAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+cAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+cAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+cAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+cGenerateDSYMFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app.dSYM /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app
+cProcessProductPackaging "/Users/matthewhartman/Library/MobileDevice/Provisioning Profiles/6428A681-3B86-42CC-9511-92933F82AEC0.mobileprovision" /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/embedded.mobileprovision
+cTouch /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent
+cCodeSign /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D5A25CF00000000003FF380
+t1297753551
+s4191104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D54D1B500000000002CAD60
+t1297404341
+s2927968
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004D5DEA81000000000000291C
+t1298000513
+s10524
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004D5DEA8100000000000000CD
+t1298000513
+s205
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DEA9B0000000000113080
+t1298000539
+s1126528
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D54D608000000000026CB10
+t1297405448
+s2542352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D54D0E700000000000B0CA0
+t1297404135
+s724128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Camera.png
+c000000004B87209A000000000000325B
+t1267146906
+s12891
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.h
+c000000004B872DC000000000000001AA
+t1267150272
+s426
+i<UIKit/UIKit.h>
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+c000000004B875C6A000000000000027D
+t1267162218
+s637
+i"test_appAppDelegate.h"
+i"test_appViewController.h"
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.h
+c000000004B965CE70000000000000190
+t1268145383
+s400
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+c000000004B97120D0000000000000CE3
+t1268191757
+s3299
+i"test_appViewController.h"
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+t1318898120
+s374
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app.dSYM
+t1318898117
+s102
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Camera.png
+t1318898106
+s11459
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Info.plist
+t1318898105
+s832
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/PkgInfo
+t1318898105
+s8
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/ResourceRules.plist
+t1318898105
+s485
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/email.html
+t1318898105
+s356
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/embedded.mobileprovision
+t1318898117
+s7580
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app
+t1318898117
+s50024
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/main.o
+t1318898112
+s6736
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app
+t1318898116
+s21352
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app.LinkFileList
+c000000004E9CC9B800000000000001B6
+t1318898104
+s438
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appAppDelegate.o
+t1318898112
+s50524
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appViewController.o
+t1318898113
+s53228
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/main.o
+t1318898113
+s6704
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app
+t1318898116
+s21352
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app.LinkFileList
+c000000004E9CC9B800000000000001B6
+t1318898104
+s438
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appAppDelegate.o
+t1318898113
+s50452
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appViewController.o
+t1318898113
+s52968
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv6/main.plist
+t1318898117
+s276
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv6/test_appAppDelegate.plist
+t1318898117
+s276
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv6/test_appViewController.plist
+t1318898117
+s276
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv7/main.plist
+t1318898117
+s276
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv7/test_appAppDelegate.plist
+t1318898117
+s276
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv7/test_appViewController.plist
+t1318898117
+s276
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent
+t1318898117
+s613
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/email.html
+c000000004AFB5BB60000000000000164
+t1257986998
+s356
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+c000000004B87210C000000000000016F
+t1267147020
+s367
+i<UIKit/UIKit.h>
+
+N/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch
+c000000004A45891C00000000000000B9
+t1246071068
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/matthewhartman/Library/MobileDevice/Provisioning Profiles/6428A681-3B86-42CC-9511-92933F82AEC0.mobileprovision
+c000000004E8A79160000000000001D9C
+t1317697814
+s7580
+
+N/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch.gch
+t1318898110
+s10209180
+
+N/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch.gch
+t1318898111
+s10667932
+
+N/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fbuetqgoujrzuyaitcfcrwxhsgbn/test_app_Prefix.pch.pth
+t1318898111
+s3340372
+
+N/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch.pth
+t1318898111
+s3340552
+
+Ntest_app-Info.plist
+c000000004B9717A40000000000000376
+t1268193188
+s886
+
+CAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+s340590917.160519
+e340590917.444936
+r1
+xAnalyze
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+lSLF07#2@93"Analyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m340590917#340590917#0(0"0(0#0#85"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m8599880832#1998"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch --analyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv7/test_appAppDelegate.plist0#
+
+CAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+s340590917.218582
+e340590917.325527
+r1
+xAnalyze
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+lSLF07#2@96"Analyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m340590917#340590917#0(0"0(0#0#88"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m8608370816#2004"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch --analyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv7/test_appViewController.plist0#
+
+CAnalyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+s340590917.158448
+e340590917.218501
+r1
+xAnalyze
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+lSLF07#2@70"Analyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m340590917#340590917#0(0"0(0#0#62"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m8601855040#1960"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch --analyze /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/StaticAnalyzer/normal/armv7/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies340590904#340590905#0(0"0(0#1#0"8609057440#0"0#
+
+CCodeSign /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+s340590917.823743
+e340590920.487494
+r1
+xCodeSign
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/test-app.app340590917#340590920#0(0"0(0#0#89"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app8604034144#724"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Matthew Hartman (9D2SRKS8SB)" --resource-rules=/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/ResourceRules.plist --entitlements /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app0#
+
+CCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/main.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s340590912.313217
+e340590912.974041
+r1
+xCompileC
+xbuild/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/main.o
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m340590912#340590912#0(0"0(0#0#62"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m8612030272#1931"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv6 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appAppDelegate.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s340590912.314885
+e340590912.987792
+r1
+xCompileC
+xbuild/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appAppDelegate.o
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m340590912#340590912#0(0"0(0#0#85"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m8609514336#1969"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv6 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appAppDelegate.o0#
+
+CCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appViewController.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s340590912.974245
+e340590913.123273
+r1
+xCompileC
+xbuild/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appViewController.o
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m340590912#340590913#0(0"0(0#0#88"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m8609216192#1975"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv6 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test_appViewController.o0#
+
+CCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/main.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s340590912.987891
+e340590913.136213
+r1
+xCompileC
+xbuild/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/main.o
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m340590912#340590913#0(0"0(0#0#62"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m8608545600#1931"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/main.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appAppDelegate.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s340590913.136302
+e340590913.214229
+r1
+xCompileC
+xbuild/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appAppDelegate.o
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m340590913#340590913#0(0"0(0#0#85"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m8603935744#1969"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appAppDelegate.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appAppDelegate.o0#
+
+CCompileC build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appViewController.o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s340590913.214385
+e340590913.343769
+r1
+xCompileC
+xbuild/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appViewController.o
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m340590913#340590913#0(0"0(0#0#88"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m8601969632#1975"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -include /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Classes/test_appViewController.m -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test_appViewController.o0#
+
+CCopyPNGFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Camera.png Camera.png
+s340590905.133545
+e340590906.610303
+r1
+xCopyPNGFile
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Camera.png
+xCamera.png
+lSLF07#2@67"CopyPNGFile build/Debug-iphoneos/test-app.app/Camera.png Camera.png340590905#340590906#0(0"0(0#0#66"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Camera.png8600636384#512"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/Camera.png /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Camera.png0#
+
+CCpResource build/Debug-iphoneos/test-app.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s340590905.085679
+e340590905.133453
+r1
+xCpResource
+xbuild/Debug-iphoneos/test-app.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist340590905#340590905#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8601169312#529"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app0#
+
+CCpResource build/Debug-iphoneos/test-app.app/email.html email.html
+s340590905.134200
+e340590905.140338
+r1
+xCpResource
+xbuild/Debug-iphoneos/test-app.app/email.html
+xemail.html
+lSLF07#2@15"Copy email.html340590905#340590905#0(0"0(0#0#66"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/email.html8600520192#506"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/email.html /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app0#
+
+CCreateUniversalBinary /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app normal "armv6 armv7"
+s340590917.001200
+e340590917.104768
+r1
+xCreateUniversalBinary
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/test-app.app/test-app normal "armv6 armv7"340590917#340590917#0(0"0(0#0#67"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/armv6 armv78608447776#594"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app -output /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app0#
+
+CGenerateDSYMFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app.dSYM /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app
+s340590917.325612
+e340590917.652194
+r1
+xGenerateDSYMFile
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app.dSYM
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/test-app.app.dSYM build/Debug-iphoneos/test-app.app/test-app340590917#340590917#0(0"0(0#0#98"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app8609481088#416"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/test-app -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app.dSYM0#
+
+CLd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app normal armv6
+s340590913.123375
+e340590917.001088
+r1
+xLd
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app
+xnormal
+xarmv6
+lSLF07#2@141"Link /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app340590913#340590917#0(0"0(0#0#0"8605385952#1069"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -filelist /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -framework CFNetwork -framework SystemConfiguration -framework MessageUI -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv6/test-app0#
+
+CLd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app normal armv7
+s340590913.343880
+e340590916.998983
+r1
+xLd
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app
+xnormal
+xarmv7
+lSLF07#2@141"Link /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app340590913#340590916#0(0"0(0#0#0"8612422176#1069"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -filelist /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework QuartzCore -framework CFNetwork -framework SystemConfiguration -framework MessageUI -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/Objects-normal/armv7/test-app0#
+
+CProcessInfoPlistFile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Info.plist test_app-Info.plist
+s340590905.086707
+e340590905.089777
+r1
+xProcessInfoPlistFile
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Info.plist
+xtest_app-Info.plist
+lSLF07#2@27"Process test_app-Info.plist340590905#340590905#0(0"0(0#0#75"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app-Info.plist8600964768#634"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility test_app-Info.plist -genpkginfo /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/ResourceRules.plist -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/Info.plist0#
+
+CProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch.gch test_app_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s340590906.610473
+e340590910.837774
+r1
+xProcessPCH
+x/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch.gch
+xtest_app_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile test_app_Prefix.pch340590906#340590910#0(0"0(0#0#75"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch8609246784#1811"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv6 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch -o /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aafrabiblksjtrbtedfurhjuxbtz/test_app_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch.gch test_app_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s340590906.611597
+e340590911.423028
+r1
+xProcessPCH
+x/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch.gch
+xtest_app_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile test_app_Prefix.pch340590906#340590911#0(0"0(0#0#75"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch8604404864#1811"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch -o /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-aswnjekwwmwoqhdowkhttbvdzpty/test_app_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fbuetqgoujrzuyaitcfcrwxhsgbn/test_app_Prefix.pch.pth test_app_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s340590910.837951
+e340590911.760455
+r1
+xProcessPCH
+x/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fbuetqgoujrzuyaitcfcrwxhsgbn/test_app_Prefix.pch.pth
+xtest_app_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@30"Precompile test_app_Prefix.pch340590910#340590911#0(0"0(0#0#75"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch8609046976#1822"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv6 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch -o /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fbuetqgoujrzuyaitcfcrwxhsgbn/test_app_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch.pth test_app_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s340590911.423136
+e340590912.313040
+r1
+xProcessPCH
+x/var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch.pth
+xtest_app_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@30"Precompile test_app_Prefix.pch340590911#340590912#0(0"0(0#0#75"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch8602041312#1822"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=3.0 -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-generated-files.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-own-target-headers.hmap -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-all-target-headers.hmap -iquote /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app-project-headers.hmap -F/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/include -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources/armv7 -I/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/DerivedSources -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/test_app_Prefix.pch -o /var/folders/wt/wtTg3vafF2S79z6aCK9ZxU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/test_app_Prefix-fgztjylnpzftwefjfutzhqdyyimo/test_app_Prefix.pch.pth0#
+
+CProcessProductPackaging "/Users/matthewhartman/Library/MobileDevice/Provisioning Profiles/6428A681-3B86-42CC-9511-92933F82AEC0.mobileprovision" /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/embedded.mobileprovision
+s340590917.652311
+e340590917.790081
+r1
+xProcessProductPackaging
+x/Users/matthewhartman/Library/MobileDevice/Provisioning Profiles/6428A681-3B86-42CC-9511-92933F82AEC0.mobileprovision
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/matthewhartman/Library/MobileDevice/Provisioning Profiles/6428A681-3B86-42CC-9511-92933F82AEC0.mobileprovision" build/Debug-iphoneos/test-app.app/embedded.mobileprovision340590917#340590917#0(0"0(0#0#114"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/embedded.mobileprovision8608669920#467"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/matthewhartman/Library/MobileDevice/Provisioning Profiles/6428A681-3B86-42CC-9511-92933F82AEC0.mobileprovision" -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent
+s340590917.793930
+e340590917.823621
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent340590917#340590917#0(0"0(0#0#121"/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent8607252480#469"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist -entitlements -format xml -o /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/test-app.build/Debug-iphoneos/test-app.build/test-app.xcent0#
+
+CTouch /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+s340590917.790168
+e340590917.793824
+r1
+xTouch
+x/Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app
+lSLF07#2@95"Touch /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app340590917#340590917#0(0"0(0#0#0"8608346080#299"    cd /Users/matthewhartman/Documents/Apps/iphone/cameraEmail    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/matthewhartman/Documents/Apps/iphone/cameraEmail/build/Debug-iphoneos/test-app.app0#
+
